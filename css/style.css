@@ -10,6 +10,8 @@ h2,
 h3 {
      font-family: "Oswald", sans-serif;
      font-optical-sizing: auto;
+     color: #00274C;
+     margin: 30px 10px;
 }
 
 h1 {
@@ -22,6 +24,16 @@ h2 {
 
 h3 {
      font-size: 20px;
+}
+
+li,
+p {
+     margin: 30px 10px;
+     line-height: 23px;
+}
+
+ul {
+     margin: 0 10px 0 10px;
 }
 
 header {
@@ -37,8 +49,6 @@ img {
      width: 100%;
 }
 
-
-
 nav ul {
      padding: 25px;
      text-align: left;
@@ -47,7 +57,6 @@ nav ul {
 }
 
 nav li{
-     padding: 20px 0;
      grid-column: 1 / span 4;
      text-align: center;
      width: 100%;
@@ -63,6 +72,8 @@ nav a{
 .skip {
      position: absolute;
      top: -65px;
+     background-color: #FFCB05;
+     padding: 10px;
 }
 
 
@@ -77,4 +88,9 @@ nav a{
      display: grid;
      grid-template-columns: repeat(5, 1fr);
      gap: 13px;
+}
+
+footer {
+     background-color: #00274C;
+     color: #FFCB05;
 }
