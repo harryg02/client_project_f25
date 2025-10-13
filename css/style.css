@@ -7,7 +7,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
      font-family: "Oswald", sans-serif;
      font-optical-sizing: auto;
      color: #00274C;
@@ -26,14 +27,20 @@ h3 {
      font-size: 20px;
 }
 
-li,
+h4 {
+     font-size: 18px;
+}
+
+li {
+     padding: 10px;
+     line-height: 23px;
+     /* https://www.w3schools.com/cssref/tryit.php?filename=trycss_list-style-position */
+     list-style-position: inside;
+}
+
 p {
      padding: 20px 10px;
      line-height: 23px;
-}
-
-section {
-     padding: 20px 0 20px 0;
 }
 
 header {
@@ -99,9 +106,7 @@ nav a.highlighted {
 
 
 .container {
-     display: grid;
-     grid-template-columns: repeat(5, 1fr);
-     gap: 13px;
+     padding: 10px;
 }
 
 .tabs {
@@ -138,6 +143,11 @@ nav a.highlighted {
 
 .tabs a:nth-child(5) {
      background-color: #a9bfef;
+}
+
+.tabs a:nth-child(6) {
+     background-color: #702082;
+     color: #fff;
 }
 
 footer {
