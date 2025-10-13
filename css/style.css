@@ -11,7 +11,7 @@ h3 {
      font-family: "Oswald", sans-serif;
      font-optical-sizing: auto;
      color: #00274C;
-     margin: 30px 10px;
+     padding: 20px 10px;
 }
 
 h1 {
@@ -28,20 +28,32 @@ h3 {
 
 li,
 p {
-     margin: 30px 10px;
+     padding: 20px 10px;
      line-height: 23px;
 }
 
-ul {
-     margin: 0 10px 0 10px;
+section {
+     padding: 20px 0 20px 0;
 }
 
 header {
      background-color: #00274C;
 }
 
+header h3 {
+     color: #fff;
+}
+
 header img {
      width: 50px;
+     height: 50px;
+     padding: 10px;
+}
+
+.site-branding {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
 }
 
 iframe,
@@ -50,23 +62,25 @@ img {
 }
 
 nav ul {
-     padding: 25px;
      text-align: left;
      display: grid;
-     grid-template-columns: repeat(4, 1fr);
+     grid-template-columns: 1fr 1fr;
 }
 
-nav li{
-     grid-column: 1 / span 4;
+nav li {
      text-align: center;
-     width: 100%;
+     border: #2f4972 1px solid;
 }
 
-nav a{
-  color:#FFCB05;
-  font-weight: bold;
-  text-decoration: none;
+nav a {
+     color:#fff;
+     font-weight: bold;
+     text-decoration: none;
+}
 
+nav a.highlighted {
+     color: #FFCB05;
+     text-decoration: underline;
 }
 
 .skip {
@@ -90,7 +104,47 @@ nav a{
      gap: 13px;
 }
 
+.tabs {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+
+.tabs a {
+     text-decoration: none;
+     padding: 20px 10px;
+     font-weight: 600;
+     color: #00274C;
+     text-align:center;
+}
+
+/* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child */
+.tabs a:nth-child(1) {
+     background-color: #d8edff;
+}
+
+.tabs a:nth-child(2) {
+     background-color: #00274c;
+     color: #d8edff;
+}
+
+.tabs a:nth-child(3) {
+     background-color: #9a3324;
+     color: #fff;
+}
+
+.tabs a:nth-child(4) {
+     background-color: #ffcb05;
+}
+
+.tabs a:nth-child(5) {
+     background-color: #a9bfef;
+}
+
 footer {
      background-color: #00274C;
+     color: #fff;
+}
+
+footer a:visited {
      color: #FFCB05;
 }
