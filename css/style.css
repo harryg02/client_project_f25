@@ -57,6 +57,10 @@ header img {
      padding: 10px;
 }
 
+section {
+     padding: 20px 0;
+}
+
 .site-branding {
      display: flex;
      flex-wrap: wrap;
