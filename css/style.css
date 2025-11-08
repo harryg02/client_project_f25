@@ -163,3 +163,23 @@ footer {
 footer a:visited {
      color: #FFCB05;
 }
+
+@media only screen and (min-width: 768px) {
+     nav ul {
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+     main {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+     section {
+          padding: 30px;
+     }
+     #welcome {
+          grid-column: 1 / span 3;
+     }
+     aside .tabs {
+          display: grid;
+          grid-template-columns: 1fr;
+     }
+}
