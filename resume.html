@@ -137,9 +137,12 @@
   </main>
 
   <footer>
-    <p>University of Michigan School of Information | UMSI Career
-        Development Office </p>
+    <p>© Copyrights <span id="year"></span> University of Michigan School of Information | UMSI Career
+      Development Office </p>
   </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
 </body>
 

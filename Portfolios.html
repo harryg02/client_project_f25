@@ -35,7 +35,7 @@
 
   <main id="maincontent">
 
-    <section>
+    <section class="column1Span2">
       <h1>Portfolios</h1>
       <img src="images/UMSI_CareerFair_02062025_10.jpg"
         alt="Two woman talking to each other in a professional setting.">
@@ -94,7 +94,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="column3Span2">
       <h2>General Portfolio Guidelines:</h2>
       <ul>
         <li>
@@ -195,9 +195,12 @@
   </main>
 
   <footer>
-    <p>University of Michigan School of Information | UMSI Career
+    <p>© Copyrights <span id="year"></span> University of Michigan School of Information | UMSI Career
       Development Office </p>
   </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
 </body>
 

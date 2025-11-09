@@ -35,7 +35,7 @@
 
   <main id="maincontent">
 
-    <section>
+    <section class="column1Span2 row1Span2">
       <h1>Networking & Connections</h1>
       <img src="images/umsi_careerfair.1.26.2306.jpg" alt="Two persons talking to each other at career fair">
       <h2>STEP 1: FIND ALUMNI</h2>
@@ -68,7 +68,7 @@
       </ul>
     </section>
 
-    <section>
+    <section class="column3Span2">
       <h2>STEP 2: GET A RESPONSE</h2>
       <p>
         Don’t get discouraged by low response rate - average response rate to “cold messages” is around 20%. Each
@@ -81,8 +81,9 @@
         <li>In-person meeting</li>
         <li>Email communication</li>
       </ul>
-
-      <h3>DO’S & DON’TS</h3>
+    </section>
+    <section class="column3Span2">
+      <h2>DO’S & DON’TS</h2>
 
       <h4>DO:</h4>
       <ul>
@@ -115,7 +116,8 @@
           NEVER ask for a job!
         </li>
       </ul>
-
+    </section>
+    <section class="column1Span2">
       <h4>WRITING YOUR EMAIL TO GET A RESPONSE</h4>
       <ol>
         <li>Write a descriptive & enticing subject line</li>
@@ -154,9 +156,12 @@
   </main>
 
   <footer>
-    <p>University of Michigan School of Information | UMSI Career
-        Development Office </p>
+    <p>© Copyrights <span id="year"></span> University of Michigan School of Information | UMSI Career
+      Development Office </p>
   </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 
 </body>
 
