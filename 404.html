@@ -1,0 +1,61 @@
+<!-- Content taken from UMSI Career Development Office (CDO) [Workshop Slides] Intro to Making Connections https://docs.google.com/presentation/d/1R6azi49e7vd3ubRtdm33qG6Aq3bLBDBue7blM6pv49I/edit?usp=sharing-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/html5reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>UMSI Career Development Resource Hub - Portfolios</title>
+</head>
+
+<body>
+  <header>
+    <a class="skip" href="#maincontent">Skip to Main Content</a>
+    <div class="site-branding">
+      <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+      <h3>Career Development Resource Hub</h3>
+    </div>
+    <nav>
+      <ul>
+        <!-- aria-current="page" indicate the current page. Source: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-current -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resumes</a></li>
+        <li><a href="networking.html">Networking & Connections</a></li>
+        <li><a href="Portfolios.html">Portfolios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="maincontent">
+
+    <section class="notfound">
+      <h1>
+        404
+      </h1>
+      <h2>
+        Page not found
+      </h2>
+      <a href="./index.html">Go Home</a>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© Copyrights <span id="year"></span> University of Michigan School of Information | UMSI Career
+      Development Office </p>
+  </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+
+</body>
+
+</html>

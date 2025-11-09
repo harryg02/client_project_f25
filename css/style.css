@@ -164,6 +164,30 @@ footer a:visited {
      color: #FFCB05;
 }
 
+.notfound {
+     grid-column: 1 / -1;
+     display: flex;
+     align-items: center;
+     min-height: 80vh;
+     flex-direction: column;
+     background-color: #00274C;
+     justify-content: center;
+}
+
+.notfound * {
+     color: #FFCB05;
+}
+
+.notfound h1 {
+     font-size: 80px;
+}
+
+.notfound a {
+     background-color: #FFCB05;
+     color: #00274C;
+     padding: 10px;
+}
+
 @media only screen and (min-width: 768px) {
      nav ul {
           grid-template-columns: 1fr 1fr 1fr 1fr;
